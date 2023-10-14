@@ -9,3 +9,5 @@ unknown_items.csv
 helper_*
 .vscode/
 desktop.ini
+.env
+*.7z
