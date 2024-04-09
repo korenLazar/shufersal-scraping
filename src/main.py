@@ -29,6 +29,7 @@ from src.chains.victory import Victory
 from src.chains.yeinot_bitan import YeinotBitan
 from src.chains.yohananof import Yohananof
 from src.chains.zol_vebegadol import ZolVebegadol
+from src.chains.super_sapir import SuperSapir
 from src.promotion import main_latest_promos, log_promos_by_name, get_all_prices_with_promos
 from src.store_utils import log_stores_ids
 from src.supermarket_chain import SupermarketChain
@@ -64,6 +65,7 @@ CHAINS_LIST = [
     YeinotBitan,
     SuperPharm,
     Mega,
+    SuperSapir
 ]
 
 MONITORED_STORES = {

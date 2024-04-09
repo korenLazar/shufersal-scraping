@@ -18,7 +18,7 @@ class YeinotBitan(SupermarketChain):
         session: requests.Session,
     ) -> str:
         today_date_suffix = datetime.today().date().strftime("%Y%m%d")
-        url = f"http://publishprice.ybitan.co.il/{today_date_suffix}/"
+        url = f"https://publishprice.ybitan.co.il/{today_date_suffix}/"
         req_res = requests.get(url)
         soup = BeautifulSoup(req_res.text, features="lxml")
         promo_tags = soup.findAll(
